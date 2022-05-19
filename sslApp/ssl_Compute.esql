@@ -7,6 +7,7 @@ CREATE COMPUTE MODULE ssl_Compute
 		-- CALL CopyEntireMessage();
 		SET OutputRoot.JSON.Data.Details.name='RAKESH';
 		SET OutputRoot.JSON.Data.Details.loc='KARIMANAGR';
+		SET OutputRoot.JSON.Data.Details.MOB='97837743874';
 		RETURN TRUE;
 	END;
 
