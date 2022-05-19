@@ -3,7 +3,7 @@
 CREATE COMPUTE MODULE ssl_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		-- CALL CopyMessageHeaders();
+		 CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
 		SET OutputRoot.JSON.Data.Details.name='RAKESH';
 		SET OutputRoot.JSON.Data.Details.loc='KARIMANAGR';
