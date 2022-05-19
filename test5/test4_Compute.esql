@@ -8,7 +8,7 @@ CREATE COMPUTE MODULE test4_Compute
 		SET OutputRoot.XMLNSC.status.properties=InputRoot;
 		SET OutputRoot.XMLNSC.status.inputproperties=InputProperties;
 
-		SET OutputRoot.XMLNSC.status.environment=InputLocalEnvironment;
+		SET OutputRoot.XMLNSC.status1.environment=InputLocalEnvironment;
 		RETURN TRUE;
 	END;
 
